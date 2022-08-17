@@ -1,6 +1,6 @@
 # GolFinance Profile API
 
-Serverless API implementation for GolFinance Profile contract
+Serverless API implementation for GolFinance Profile contract.
 
 # Dependencies
 
