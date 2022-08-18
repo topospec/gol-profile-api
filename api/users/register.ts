@@ -17,6 +17,7 @@ export default async (req: VercelRequest, res: VercelResponse): Promise<VercelRe
 
   // const signedAddress = verifyMessage(username, signature);
   // FIXME: For Testing Purposes Only @dev:topospec
+  // It will pass the address without verify
   const signedAddress = address;
   // END FIXME
   if (address.toLowerCase() !== signedAddress?.toLowerCase()) {
